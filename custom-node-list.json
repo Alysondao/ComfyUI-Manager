@@ -5689,14 +5689,34 @@
             "description": "A ComfyUI node to download models(Checkpoints and LoRA) from external links and act as an output standalone node."
         },
         {
-            "author": "Alysondao",
+            "author": "prodogape",
             "title": "Comfyui-Yolov8-JSON",
-            "reference": "https://github.com/Alysondao/Comfyui-Yolov8-JSON",
+            "reference": "https://github.com/prodogape/Comfyui-Yolov8-JSON",
+            "files": [
+                "https://github.com/prodogape/Comfyui-Yolov8-JSON"
+            ],
+            "install_type": "git-clone",
+            "description": "This node is mainly based on the Yolov8 model for object detection, and it outputs related images, masks, and JSON information."
+        },
+        {
+            "author": "prodogape",
+            "title": "ComfyUI-Minio",
+            "reference": "https://github.com/prodogape/ComfyUI-Minio",
             "files": [
                 "https://github.com/Alysondao/Comfyui-Yolov8-JSON"
             ],
             "install_type": "git-clone",
-            "description": "This node is mainly based on the Yolov8 model for object detection, and it outputs related images, masks, and JSON information."
+            "description": "This plugin is mainly based on Minio, implementing the ability to read images from Minio, save images, facilitating expansion and connection across multiple machines."
+        },
+        {
+            "author": "prodogape",
+            "title": "ComfyUI-clip-interrogator",
+            "reference": "https://github.com/prodogape/ComfyUI-clip-interrogator",
+            "files": [
+                "https://github.com/prodogape/ComfyUI-clip-interrogator"
+            ],
+            "install_type": "git-clone",
+            "description": "Unofficial ComfyUI custom nodes of clip-interrogator.Images can be reverse-searched to obtain descriptive keywords for the image."
         },
         {
             "author": "CC-BryanOttho",
